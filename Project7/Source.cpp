@@ -2,8 +2,8 @@
 float r, area;
 int main()
 {
-	scanf("Radius = %f", &r);
+	scanf("%f",&r);
 	area = 22.0 / 7.0 * (r * r);
-	printf("Area = %f", area);
+	printf("%f",area);
 	return  0;
 }
